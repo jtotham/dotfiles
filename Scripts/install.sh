@@ -3,7 +3,7 @@ chsh -s /bin/zsh
 
 echo "Cloning Sublime Text configuration…"
 rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3
-git clone https://github.com/soffes/sublime.git ~/Library/Application\ Support/Sublime\ Text\ 3
+#git clone https://github.com/soffes/sublime.git ~/Library/Application\ Support/Sublime\ Text\ 3
 
 echo "Hiding files…"
 SetFile -a "V" ~/Readme.markdown ~/LICENSE ~/Scripts

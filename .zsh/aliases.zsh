@@ -10,12 +10,8 @@ alias ls="ls -F"
 # Git
 alias gsu='git submodule update --init --recursive'
 alias gs='git status'
-compdef _git gs=git-status
 alias gut='git'
 alias cleanup_branches='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
-
-# Editor
-alias s='subl .'
 
 # Rails
 alias tlog='tail -f log/development.log'
@@ -32,5 +28,4 @@ alias screensaver='/System/Library/Frameworks/ScreenSaver.framework/Versions/A/R
 alias %=' '
 alias $=' '
 
-# Xcode
-alias ddd='rm -rf ~/Library/Developer/Xcode/DerivedData'
+alias tmux-initilaze='tmux new-window; tmux new-window; tmux new-window; tmux rename-window -t0 Console; tmux rename-window -t1 CUSTOMERS'
